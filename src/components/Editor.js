@@ -34,7 +34,7 @@ const defaultSettings = Object.assign({
   scale: 20,
 }, savedData)
 
-const devIconsUrl = "https://raw.githubusercontent.com/devicons/devicon/master/devicon.json"
+const devIconsUrl = "/devicon.json"
 // const devIconOptions = [
 // 	{ value: 'None', label: 'None' },
 // 	{ value: 'javascript', label: 'Javascript' },

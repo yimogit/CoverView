@@ -8,7 +8,7 @@ const Header = () => {
     <div className="text-xl md:px-2 flex  border-b border-gray-100 p-2">
       <Link to="/" className="flex items-center">
         <img src={logo} alt="logo" className="w-8 h-8 mx-4" />
-        <h1 className="font-semibold">封面生成器</h1>
+        <h1 className="font-semibold">文章封面生成器</h1>
       </Link>
 
       <div className="ml-auto md:mr-4">
