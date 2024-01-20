@@ -197,7 +197,7 @@ const Home = () => {
                 </div>
 
                 <div className="md:text-lg text-sm flex flex-wrap  ">
-                    <Link to="/faq" className="m-2 hover:font-semibold">📌 How to use</Link>
+                    <Link to="/faq" className="m-2 hover:font-semibold">📌 如何使用</Link>
                     <a href="https://github.com/rutikwankhade/CoverView" target="_blank" rel="noreferrer" className="m-2 hover:font-semibold">⭐ Star on Github</a>
                     <a href="https://www.buymeacoffee.com/rutikwankhade" target="_blank" rel="noreferrer" className="m-2 hover:font-semibold">🥤 Buy me a coffee</a>
                 </div>

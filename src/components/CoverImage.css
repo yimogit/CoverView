@@ -6,5 +6,19 @@
 .hashnode {
     height: 420px;
     width: 800px;
+}
 
+.cnblogs{
+  height: 493px;
+  width: 900px;
+}
+
+.juejin{
+  height: 512px;
+  width: 768px;
+}
+
+.wexin{
+  width:900px;
+  height:383px;
 }

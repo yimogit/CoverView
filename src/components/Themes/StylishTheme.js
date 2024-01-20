@@ -76,7 +76,7 @@ const StylishTheme = ({ config }) => {
 
                     <div className="h-full w-1/2  bg-white rounded-l-xl">
                         <div className={`${font} px-12 justify-center text-left rounded-xl h-full p-4 flex flex-col`}>
-                            <h1 className=" text-4xl font-bold text-gray-800">{title}</h1>
+                            <h1 className=" text-4xl font-bold text-gray-800 en-word-break">{title}</h1>
                             <div className="flex items-center mt-10 text-left">
                                 {
                                     customIcon ?

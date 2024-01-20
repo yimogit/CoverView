@@ -42,7 +42,7 @@ const CoverImage = (props) => {
 
 	return (
 		<div className="md:w-full md:scale-100 scale-50">
-			{selectTheme(theme)}		</div>
+			{selectTheme(theme)}</div>
 	);
 
 

@@ -2,6 +2,7 @@
 .shuffle-btn:active{
     transform: rotate(360deg);
     transition: all 0.2s ease-out;
+    user-select: none;
 }
 
 .bi-shuffle{
