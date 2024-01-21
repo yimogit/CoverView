@@ -16,3 +16,4 @@
 - 添加复制到剪切板按钮
 - 去掉 unsplash 的集成
 - 修复图案生成图片报错问题，参考 [RainVice/CoverView](https://github.com/RainVice/CoverView)
+- 添加推荐栏，包含工具 [简单封面](https://jiandan.link/EasyCover/index.html)，[MeTools](https://github.com/yimogit/metools-plugin)

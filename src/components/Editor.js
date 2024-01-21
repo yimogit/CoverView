@@ -15,6 +15,9 @@ import theme5 from '../assets/images/theme5.webp'
 import theme6 from '../assets/images/theme6.webp'
 // import theme7 from '../assets/images/theme7.webp'
 
+import metoolsPng from '../assets/images/metools.png'
+import easyCoverJpg from '../assets/images/easycover.jpeg'
+
 // const yimoLogo='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAIAAAD9b0jDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAWuSURBVEhLnVVbbxVVFJ77zLn3LrcWS8ultTU1TXmCxpKQYBoTvPwBExIUH1R+ABE1ISG+4IORB6LxgRcaHzSgmJAoSDGhQkHbSm/U09Nzoz236dxn9vjtOYfaQuHB7+TM3rNmr2/WXt/aa1ji+wzDsPg/BT94VLuyGHyOZdngEjx/JrCW+jwBGPEyB4PvcxwHQ1kzM7l8fTy6o6kRpM/n3YQUhK5PTJdkciu6YcRiEY4XimXVIQx+9RFlR1NDWBaxUDdtRVZ4Fgx4MbP2pidJg+B8w3EXM3ndsjC3bRtXRQkzLO/DTfBlgdnR1IQdZHOFaEiOR8O2ZcfjMYHuiWIDKbKGO8L4meVCqaIRxGs4uq5zPBdSlEg0woKY5xiOkoPU9xieZVzXMUxzW0tzUyIWhIu8PybFRLfsVcO0bSe7suz7rCLLqcVUNFYnCCLje6tqKZPNZtKZcDjU1d3d2dEBbzjajmtYNkNIx85tYUni2McBQxbLsVVd1wx7anouk15+lC+kl3IXL36bXUpe+/mnz06f+uD9E2ph5fDQYHpxYer+PYmHN4dQcAWRz3Kp3Ar0AFuNFClfLq0atl3Wyo7nyzKiVCRR9Gznw/eOXfz6q559u/fv3+957vnzX/4xdrutrQ1E1B9h+YRjXIHzHcsuqTo14k8IyRYKqg7BGdO0ROw2gKDI7xw7sb21zTCMfD5fV1c3MzPb3t7e19c3MDAAR4iNSOHO8wLP8SzLFUtlWgoe41mu7RFGkERIS1xeFCUeqwRelvhEfezI8OuiIo3fv3vjxi+RiJJOZw8eeBVEFKBcB8houb7pOPypj09BH9PB2/hSqWJZNs0RBY+dwdjT0wspjr97/N743V27Og8fPrKqWjdvXi8Wiy9s2QJe13W9AFR6jg0rCjLCWrY/NTk9Pv5XsVgCmRAAb66UNV2zCiuF1u2tVy5fSSZTloPCyKezGZ6T0ktZFAO4CGoQZxei8YSwxLRM5JQtVsqzs3MP5x/mcjksAh2oM5nM5OTUgwfTvCx3dL/E8iEc/Ru/Xrs1+ls4EUkuLhimpmpmUaUFo+n27OzC0lKuWKiUKxXWI97138eSqTxOZJAZr6GxASrlcnlDNxOJRLm0cuf2ranJe+0v7m5u2ZrJpTW1pGka1hw78ZFLfEkQiUcMXVdCoWg02tIQRpdy/0k9yj4qSopIj4fjKIpi2XZFVT8/e3ZoaCify8/PT89M/93cvLW9Y09PX29jY+PU5ANFkffu7QKR4zpqRYWwENcyzZ59HZRU1R1N06kuLENcBwoxLBeLxS5f/mF0dHTf7j1H3zj649WrFy58c+S14XhD/fDwMIpJEAVIhK0hTJQT0ui5Pgq5IR7ZpEshqS4WEhIIyszNzc3Pz09MTFy6dAmW3t7ekydPdnV1oTCwJvDgghGMBK9JRJTNSAmxCZUrKEUPnTWVSqFLfHHu3IGDB998+y00ngB0QG0CEDZo9mAjCi88SVq9BRkmoIOMtuehSuZnZz89/cng4GAoFJIkqbW19dChQz5PvwI1+PR0YsQONom0CtjHxsZGRkZQMyjylubmiBIKh8PIwGSAM2fO7NzVDprqegwceIMO9VSkwa82DzKAYEVBRAg16zpgIaweFmJOiEDTsJEUk9rj4Caw4WkwgJHF0f4PVS8c92BCc4VGKAlC9emGSPFpsjzXpQmltOiNoCsVS2iCsiwJskRpaHAAIqOu2AhklwQ+FMLHioYJbCDF3GVIRcfXwalqBdLiSvH770ZkSXylvx+Hor9/AEag6oJl+AhGI+H1xg2kAG6RBN1yKhUVZUWL0SULczN/jt+BRLF4vOflvu7uLvR6NAkUpiiiQ4pV3WsUT5OuAXbDdVGCKBvH8Uxdc20rmUziEHd2doICZx+yrOdawzNJAZpaXAMvHGeMODAgopW4Gdcankf6P8Ew/wK+fLpsBsVLrQAAAABJRU5ErkJggg=='
 const defaultIcon = { 'label': 'vuejs', 'value': 'vuejs' }
 
@@ -143,6 +146,9 @@ class Editor extends React.Component {
 
                     <Tab className="flex items-center   font-semibold    text-lg">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className=" text-gray-800 bg-white rounded-xl w-12 h-12 p-2 m-2 rounded border" width="24" height="24" viewBox="0 0 24 24" ><path d="M11.024 11.536 10 10l-2 3h9l-3.5-5z"></path><circle cx="9.503" cy="7.497" r="1.503"></circle><path d="M19 2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3h15v-2H6.012C5.55 19.988 5 19.806 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2zm0 14H5V5c0-.806.55-.988 1-1h13v12z"></path></svg>
+                    </Tab>
+                    <Tab className="flex items-center   font-semibold    text-lg">
+                      <svg fill="currentColor" t="1705816493676" className="text-gray-800 bg-white rounded-xl w-12 h-12 p-2 m-2 rounded border" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4257" width="80" height="80"><path d="M826.863642 381.784286c-71.958892 0-130.501216 58.542324-130.501216 130.500193s58.542324 130.500193 130.501216 130.500193c71.957869 0 130.500193-58.542324 130.500193-130.500193S898.822534 381.784286 826.863642 381.784286zM826.863642 591.562057c-43.714617 0-79.278601-35.563984-79.278601-79.277578s35.563984-79.277578 79.278601-79.277578c43.713594 0 79.277578 35.563984 79.277578 79.277578S870.577237 591.562057 826.863642 591.562057zM504.12617 381.784286c-71.957869 0-130.500193 58.542324-130.500193 130.500193s58.541301 130.500193 130.500193 130.500193 130.500193-58.542324 130.500193-130.500193S576.084039 381.784286 504.12617 381.784286zM504.12617 591.562057c-43.713594 0-79.276554-35.563984-79.276554-79.277578s35.56296-79.277578 79.276554-79.277578 79.277578 35.563984 79.277578 79.277578S547.838741 591.562057 504.12617 591.562057zM197.53033 381.784286c-71.957869 0-130.500193 58.542324-130.500193 130.500193s58.542324 130.500193 130.500193 130.500193 130.500193-58.542324 130.500193-130.500193S269.489222 381.784286 197.53033 381.784286zM197.53033 591.562057c-43.713594 0-79.277578-35.563984-79.277578-79.277578s35.563984-79.277578 79.277578-79.277578 79.277578 35.563984 79.277578 79.277578S241.243925 591.562057 197.53033 591.562057z" p-id="4258"></path></svg>
                     </Tab>
                   </Tab.List>
 
@@ -377,8 +383,21 @@ class Editor extends React.Component {
                           className=" cursor-pointer border border-gray-100 hover:border-gray-200 hover:scale-105 duration-300 m-2"
                         />
                       </div>
-
-
+                    </Tab.Panel>
+                    <Tab.Panel className="h-99 w-full flex flex-col justify-start">
+                      <div className="flex items-center border rounded-xl border-gray-50 px-4">
+                        <h2 className="text-lg font-inter font-semibold  p-2">其他工具推荐</h2>
+                      </div>
+                      <div className="p-2  flex flex-wrap ">
+                        <a href="https://jiandan.link/EasyCover/index.html#/" className="w-20 h-20 mr-3 text-center  flex flex-wrap justify-center" target="_blank" rel="noopener noreferrer" title="简单封面">
+                          <img src={easyCoverJpg} className="rounded-full bg-white p-1 border-white" alt="简单封面" />
+                          <span>简单封面</span>
+                        </a>
+                        <a href="https://github.com/yimogit/metools-plugin" className="w-20 h-20 mr-3 text-center  flex flex-wrap justify-center" target="_blank" rel="noopener noreferrer" title="MeTools">
+                          <img src={metoolsPng} className="rounded-full bg-white p-1 border-white" alt="MeTools" />
+                          <span>MeTools</span>
+                        </a>
+                      </div>
                     </Tab.Panel>
                   </Tab.Panels>
 
